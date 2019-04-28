@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Institute_Management_System.Models.StudentViewModel>
+
+@{
+    ViewBag.Title = "StudentCrud";
+}
+
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Students</h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<br/>
+<br/>
+
+<div class="form-group">
+
+    <div class="col-md-7">
+
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <form>
+                    <div class="col-xs-4" style=" padding-left: 250px">
+                        <button style="background-color: #6B8E23; margin-left:-150px; margin-bottom:-60px; color:#FFFFFF;" class="btn btn-info" type="submit">Department</button>
+                        <select name="type" id="type" class="form-control">
+                            <option value="Computer Science">Computer Science </option>
+                            <option value="Computer Engineering">Computer Engineering</option>
+                            <option value="Civil Engineering">Civil Engineering</option>
+                            <option value="Architecture Engineeering">Architecture Engineeering</option>
+                        </select>
+                    </div>
+
+                </form>
+
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+    <!--================End Home Banner Area =================-->
+    <div class="center" style="margin-top: 100px;">
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CNIC)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Department)
+                </th>
+
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CNIC)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Department)
+                    </td>
+
+                    <td>
+                        @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |*@
+                        @*@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                        <a href="~/Admin/DeleteStudent/@item.CNIC" style="background-color: #6B8E23; color:#FFFFFF; padding-left: 20px;padding-right: 20px" class="btn btn-default">Delete</a>
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="90d8bc6dacef428cbbc78fd43f3ac85a" Name="Diagram1">
+        <EntityTypeShape EntityType="DB41Model.Cours" Width="1.5" PointX="3" PointY="7.125" />
+        <EntityTypeShape EntityType="DB41Model.Department" Width="1.5" PointX="7.5" PointY="7.75" />
+        <EntityTypeShape EntityType="DB41Model.Fee" Width="1.5" PointX="5.25" PointY="8" />
+        <EntityTypeShape EntityType="DB41Model.Instructor" Width="1.5" PointX="0.75" PointY="7.375" />
+        <EntityTypeShape EntityType="DB41Model.QuestionPaper" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="DB41Model.Question" Width="1.5" PointX="5.25" PointY="11" />
+        <EntityTypeShape EntityType="DB41Model.Result" Width="1.5" PointX="5.25" PointY="3.75" />
+        <EntityTypeShape EntityType="DB41Model.Student" Width="1.5" PointX="3" PointY="2.5" />
+        <EntityTypeShape EntityType="DB41Model.Table_1" Width="1.5" PointX="9.75" PointY="7.75" />
+        <EntityTypeShape EntityType="DB41Model.Test" Width="1.5" PointX="8.25" PointY="3.875" />
+        <AssociationConnector Association="DB41Model.FK_Courses_Courses" />
+        <AssociationConnector Association="DB41Model.FK_Courses_Instructors" />
+        <AssociationConnector Association="DB41Model.FK_Departments_Courses" />
+        <AssociationConnector Association="DB41Model.FK_Fee_Courses" />
+        <AssociationConnector Association="DB41Model.FK_Questions_Courses" />
+        <AssociationConnector Association="DB41Model.FK_Results_Courses" />
+        <AssociationConnector Association="DB41Model.FK_Tests_Courses" />
+        <AssociationConnector Association="DB41Model.FK_Departments_Fee" />
+        <AssociationConnector Association="DB41Model.FK_Departments_Instructors" />
+        <AssociationConnector Association="DB41Model.FK_Departments_Students" />
+        <AssociationConnector Association="DB41Model.FK_Fee_Students" />
+        <AssociationConnector Association="DB41Model.FK_Questions_Instructors" />
+        <AssociationConnector Association="DB41Model.FK_Results_Students" />
+        <AssociationConnector Association="DB41Model.FK_Results_Tests" />
+        <AssociationConnector Association="DB41Model.FK_Tests_Students" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

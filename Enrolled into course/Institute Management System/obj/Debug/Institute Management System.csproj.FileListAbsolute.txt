@@ -1,0 +1,600 @@
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\ApplicationInsights.config
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Institute Management System.dll.config
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Institute Management System.pdb
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\csc.exe
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\csc.exe.config
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\csc.rsp
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\csi.exe
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\csi.exe.config
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\csi.rsp
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.AppContext.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Console.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.IO.Compression.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Security.Claims.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.ValueTuple.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\vbc.exe
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\vbc.exe.config
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\vbc.rsp
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\VBCSCompiler.exe
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Antlr3.Runtime.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\EntityFramework.SqlServer.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.Web.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Newtonsoft.Json.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Owin.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Helpers.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Mvc.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Optimization.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Razor.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.WebPages.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\WebGrease.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Helpers.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Mvc.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Optimization.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.Razor.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.WebPages.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Newtonsoft.Json.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Antlr3.Runtime.pdb
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\EntityFramework.SqlServer.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.AI.Web.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\obj\Debug\Institute Management System.csprojAssemblyReference.cache
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\obj\Debug\Institute Management System.csproj.CoreCompileInputs.cache
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\obj\Debug\Institute Management System.csproj.CopyComplete
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\obj\Debug\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\Institute Management System\Institute Management System\obj\Debug\Institute Management System.pdb
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\ApplicationInsights.config
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Institute Management System.dll.config
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Institute Management System.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Institute Management System.pdb
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\csc.exe
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\csc.exe.config
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\csc.rsp
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\csi.exe
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\csi.exe.config
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\csi.rsp
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.Managed.Core.targets
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.AppContext.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Collections.Immutable.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Console.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.IO.Compression.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.IO.FileSystem.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.IO.Pipes.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Reflection.Metadata.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Security.AccessControl.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Security.Claims.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Security.Principal.Windows.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.ValueTuple.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Xml.XmlDocument.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Xml.XPath.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\vbc.exe
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\vbc.exe.config
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\vbc.rsp
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\VBCSCompiler.exe
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\roslyn\VBCSCompiler.exe.config
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Antlr3.Runtime.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\EntityFramework.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\EntityFramework.SqlServer.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.Agent.Intercept.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.DependencyCollector.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.Web.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.WindowsServer.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.ApplicationInsights.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Core.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Cookies.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Facebook.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Google.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.OAuth.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Twitter.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Web.Infrastructure.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Newtonsoft.Json.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Owin.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Diagnostics.DiagnosticSource.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Helpers.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Mvc.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Optimization.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Razor.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.WebPages.Deployment.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.WebPages.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.WebPages.Razor.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\WebGrease.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Helpers.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Mvc.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Optimization.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.Razor.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.WebPages.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.WebPages.Deployment.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Web.WebPages.Razor.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Newtonsoft.Json.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Antlr3.Runtime.pdb
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\EntityFramework.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\EntityFramework.SqlServer.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Core.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Facebook.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Cookies.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Google.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.Twitter.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.Owin.Security.OAuth.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\System.Diagnostics.DiagnosticSource.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.DependencyCollector.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.WindowsServer.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.AI.Web.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\smester6\dbms project\Institute Management System\Institute Management System\obj\Debug\Institute Management System.csprojAssemblyReference.cache
+E:\smester6\dbms project\Institute Management System\Institute Management System\obj\Debug\Institute Management System.csproj.CoreCompileInputs.cache
+E:\smester6\dbms project\Institute Management System\Institute Management System\obj\Debug\Institute Management System.csproj.CopyComplete
+E:\smester6\dbms project\Institute Management System\Institute Management System\obj\Debug\Institute Management System.dll
+E:\smester6\dbms project\Institute Management System\Institute Management System\obj\Debug\Institute Management System.pdb
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\ApplicationInsights.config
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Institute Management System.dll.config
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Institute Management System.pdb
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\csc.exe
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\csc.exe.config
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\csc.rsp
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\csi.exe
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\csi.exe.config
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\csi.rsp
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.AppContext.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Console.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.IO.Compression.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Security.Claims.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.ValueTuple.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\vbc.exe
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\vbc.exe.config
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\vbc.rsp
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\VBCSCompiler.exe
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Antlr3.Runtime.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\EntityFramework.SqlServer.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.Web.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Newtonsoft.Json.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Owin.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Helpers.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Mvc.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Optimization.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Razor.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.WebPages.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\WebGrease.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Helpers.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Mvc.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Optimization.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.Razor.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.WebPages.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Newtonsoft.Json.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Antlr3.Runtime.pdb
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\EntityFramework.SqlServer.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.AI.Web.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\obj\Debug\Institute Management System.csprojAssemblyReference.cache
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\obj\Debug\Institute Management System.csproj.CoreCompileInputs.cache
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\obj\Debug\Institute Management System.csproj.CopyComplete
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\obj\Debug\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\admin frontend\Institute Management System\obj\Debug\Institute Management System.pdb
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\ApplicationInsights.config
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Institute Management System.dll.config
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Institute Management System.pdb
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\csc.exe
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\csc.exe.config
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\csc.rsp
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\csi.exe
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\csi.exe.config
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\csi.rsp
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.AppContext.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Console.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.IO.Compression.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Security.Claims.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.ValueTuple.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\vbc.exe
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\vbc.exe.config
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\vbc.rsp
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\VBCSCompiler.exe
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Antlr3.Runtime.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\EntityFramework.SqlServer.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.Web.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Newtonsoft.Json.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Owin.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Helpers.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Mvc.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Optimization.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Razor.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.WebPages.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\WebGrease.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Helpers.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Mvc.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Optimization.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.Razor.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.WebPages.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Newtonsoft.Json.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Antlr3.Runtime.pdb
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\EntityFramework.SqlServer.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.AI.Web.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\obj\Debug\Institute Management System.csprojAssemblyReference.cache
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\obj\Debug\Institute Management System.csproj.CoreCompileInputs.cache
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\obj\Debug\Institute Management System.csproj.CopyComplete
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\obj\Debug\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\admin dashboard\Institute Management System\obj\Debug\Institute Management System.pdb
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\ApplicationInsights.config
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Institute Management System.dll.config
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Institute Management System.pdb
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\csc.exe
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\csc.exe.config
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\csc.rsp
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\csi.exe
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\csi.exe.config
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\csi.rsp
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.AppContext.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Console.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.IO.Compression.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Security.Claims.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.ValueTuple.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\vbc.exe
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\vbc.exe.config
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\vbc.rsp
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\VBCSCompiler.exe
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Antlr3.Runtime.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\EntityFramework.SqlServer.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.Web.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Newtonsoft.Json.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Owin.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Helpers.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Mvc.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Optimization.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Razor.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.WebPages.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.WebPages.Razor.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\WebGrease.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Helpers.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Mvc.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Optimization.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.Razor.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.WebPages.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Web.WebPages.Razor.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Newtonsoft.Json.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Antlr3.Runtime.pdb
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\EntityFramework.SqlServer.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.AI.Web.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\obj\Debug\Institute Management System.csprojAssemblyReference.cache
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\obj\Debug\Institute Management System.csproj.CoreCompileInputs.cache
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\obj\Debug\Institute Management System.csproj.CopyComplete
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\obj\Debug\Institute Management System.dll
+C:\Users\Menahal Hassan\Desktop\instructor\admin dashboard\Institute Management System\obj\Debug\Institute Management System.pdb

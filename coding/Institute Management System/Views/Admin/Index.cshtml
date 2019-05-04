@@ -1,0 +1,157 @@
+﻿@model IEnumerable<Institute_Management_System.Models.SearchViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+@using (Html.BeginForm("Index", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <br />
+    <br />
+    <br />
+    <br />
+    <section class="home_banner_area blog_banner">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+            <div class="container">
+                <div class="blog_b_text text-center">
+                    <h2>Institute Management System <br /> Admin Dashboard</h2>
+                    <p>Admin can manage students,instructors,courses,announcements and student's fee</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br />
+    <br />
+    
+    <script>
+
+        var val = $('#type :selected').text();
+  
+            function navigate(target){
+            //Grab your values
+
+            //Perform your navigation
+            window.location.href = target + '/Department=' + val;
+        }
+  
+        document.getElementById('para').innerHTML = val;
+    </script>
+
+
+        <section class="blog_categorie_area">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="categories_post">
+                            <img src="~/img/blog/cat-post/student.jpg" alt="post" style="width:506px;height:220px">
+                                <div class="categories_details">
+                                    <div class="categories_text">
+
+                                        <a href="StudentCrud"  onclick='navigate(this.href);'><h5>View Student</h5></a>
+                                        <div class="border_line"></div>
+
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="categories_post">
+                                <img src="~/img/blog/cat-post/instructor.jpg" alt="post" style="width:506px;height:220px">
+                                    <div class="categories_details">
+                                        <div class="categories_text">
+                                            <a href="Addinstructor"><h5>Add Instructor</h5></a>
+                                            <div class="border_line"></div>
+
+                                        </div>
+                                    </div>
+                        </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="categories_post">
+                                    <img src="~/img/blog/cat-post/view instructor.jpg" alt="post" style="width:506px;height:220px">
+                                        <div class="categories_details">
+                                            <div class="categories_text">
+                                                <a href="instructorcrud"><h5>View Instructor</h5></a>
+                                                <div class="border_line"></div>
+
+                                            </div>
+                                        </div>
+                        </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="categories_post">
+                                        <img src="~/img/blog/cat-post/add course.jpg" alt="post" style="width:506px;height:220px">
+                                            <div class="categories_details">
+                                                <div class="categories_text">
+                                                    <a href="AddCourse"><h5>Add Courses</h5></a>
+                                                    <div class="border_line"></div>
+
+                                                </div>
+                                            </div>
+                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="categories_post">
+                                            <img src="~/img/blog/cat-post/course.jpg" alt="post" style="width:506px;height:220px">
+                                                <div class="categories_details">
+                                                    <div class="categories_text">
+                                                        <a href="coursecrud"><h5>View Courses</h5></a>
+                                                        <div class="border_line"></div>
+
+                                                    </div>
+                                                </div>
+                        </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="categories_post">
+                                                <img src="~/img/blog/cat-post/announcement.jpg" alt="post" style="width:506px;height:220px">
+                                                    <div class="categories_details">
+                                                        <div class="categories_text">
+                                                            <a href="AddAnnouncement"><h5>Add Announcement</h5></a>
+                                                            <div class="border_line"></div>
+
+                                                        </div>
+                                                    </div>
+                        </div>
+                                            </div>
+
+
+                                            <div class="col-lg-4">
+                                                <div class="categories_post">
+                                                    <img src="~/img/blog/cat-post/add ann.jpeg" alt="post" style="width:506px;height:220px">
+                                                        <div class="categories_details">
+                                                            <div class="categories_text">
+                                                                <a href="announcementcrud"><h5>View Announcement</h5></a>
+                                                                <div class="border_line"></div>
+
+                                                            </div>
+                                                        </div>
+                        </div>
+                                                </div>
+                                                <div class="col-lg-4">
+                                                    <div class="categories_post">
+                                                        <img src="~/img/blog/cat-post/fee.jpg" alt="post" style="width:506px;height:220px">
+                                                            <div class="categories_details">
+                                                                <div class="categories_text">
+                                                                    <a href="Fee.html"><h5>Add Fee</h5></a>
+                                                                    <div class="border_line"></div>
+
+                                                                </div>
+                                                            </div>
+                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+  
+    </section>
+
+
+}
+
+

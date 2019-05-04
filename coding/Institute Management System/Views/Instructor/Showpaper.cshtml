@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Institute_Management_System.Models.MCQ_S>
+
+@{
+    ViewBag.Title = "Showpaper";
+}
+
+<br />
+<br />
+<br />
+<br />
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>Show Paper</h2>
+
+            </div>
+        </div>
+    </div>
+</section>
+<br />
+<br />
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+    
+        <th>
+            @Html.DisplayNameFor(model => model.Option1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Option2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Option3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Option4)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+      
+            <td>
+                @Html.DisplayFor(modelItem => item.Option1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Option2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Option3)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Option4)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    }
+
+</table>

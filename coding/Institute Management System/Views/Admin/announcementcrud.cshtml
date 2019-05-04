@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Institute_Management_System.AnnouncementViewModel>
+
+@{
+    ViewBag.Title = "announcementcrud";
+    List<CourseViewModel> Type1 = CourseViewModel.GetCategoryList();
+    IEnumerable<SelectListItem> CategorySelectList = Type1.Select(x => new SelectListItem() { Text = x.Title, Value = Convert.ToString(x.CourseId) });
+}
+
+<br />
+<br />
+<br />
+<br />
+
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>View Announcement</h2>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<br />
+<br />
+<div class="form-group">
+
+    <div class="col-md-7">
+
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <form>
+                    <div class="col-xs-4" style=" padding-left: 250px">
+                        <button style="background-color: #6B8E23; margin-left:-130px; margin-bottom:-10px; color:#FFFFFF;" class="btn btn-info" type="submit">Course</button>
+                        @Html.DropDownList("Type1", CategorySelectList);
+                    </div>
+
+                </form>
+
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+<br/>
+<br/>
+<br/>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Detail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Course)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Detail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course)
+            </td>
+           
+        </tr>
+    }
+
+</table>

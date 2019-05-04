@@ -1,0 +1,81 @@
+﻿@model Institute_Management_System.CourseViewModel
+
+@{
+    ViewBag.Title = "CourseDetails";
+}
+
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>Course Details</h2>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="course_details_area p_120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="c_details_img">
+                    <img class="img-fluid" src="~/img/courses/course-details.jpg" alt="">
+                </div>
+            </div>
+                
+            <div class="c_details_list">
+                <ul class="list">
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Title)</b>
+                        @Html.DisplayText("  :  ")
+
+                        @Html.DisplayFor(model => model.Title)
+                    </li>
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Instructor)</b>
+                        @Html.Display(" : ")
+
+                        @Html.DisplayFor(model => model.Instructor)
+
+                    </li>
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Start_date)</b>
+                        @Html.Display(" : ")
+
+                        @Html.DisplayFor(model => model.Start_date)
+                    </li>
+                    <li>
+                        <b>  @Html.DisplayNameFor(model => model.Course_duration)</b>
+                        @Html.Display(" : ")
+
+                        @Html.DisplayFor(model => model.Course_duration)
+                    </li>
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Fee)</b>
+                        @Html.Display(" : ")
+
+                        @Html.DisplayFor(model => model.Fee)
+                    </li>
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Department)</b>
+                        @Html.Display(" : ")
+
+                        @Html.DisplayFor(model => model.Department)
+                    </li>
+                </ul>
+
+                <a class="main_btn" href="~/Student/EnrolledStudents">Enroll the Course</a>
+            </div>
+                
+            </div>
+        </div>
+</section>
+
+
+<p>
+   |
+    @Html.ActionLink("Back to List", "ViewAllCourses")
+</p>

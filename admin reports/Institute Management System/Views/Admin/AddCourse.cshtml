@@ -1,0 +1,118 @@
+﻿@model  Institute_Management_System.CourseViewModel
+
+
+
+
+@{
+    ViewBag.Title = "AddCourse";
+
+    List<InstructorViewModel> Type1 = InstructorViewModel.GetCategoryList();
+    IEnumerable<SelectListItem> CategorySelectList = Type1.Select(x => new SelectListItem() { Text = x.Fullname, Value = x.ID });
+
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section class="banner_area">
+        <div class="banner_inner d-flex align-items-center">
+            <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+            <div class="container">
+                <div class="banner_content text-center">
+                    <h2>Add Course</h2>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br />
+    <br />
+
+    <div class="form-horizontal">
+        <h4>CourseViewModel</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Instructor, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("Type1", CategorySelectList);
+
+                @* @Html.DropDownList("InstructorName", (SelectList)ViewBag.InstructorName, "Select Instructor");*@
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Start_date, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Start_date, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Start_date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Course_duration, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Course_duration, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Course_duration, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Fee, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Fee, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Fee, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Department, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <form>
+                            <div class="col-xs-4">
+                                <select name="type" id="type" class="form-control">
+                                    <option value="Computer Science">Computer Science </option>
+                                    <option value="Computer Engineering">Computer Engineering</option>
+                                    <option value="Civil Engineering">Civil Engineering</option>
+                                    <option value="Architecture Engineeering">Architecture Engineeering</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                        </form>
+
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

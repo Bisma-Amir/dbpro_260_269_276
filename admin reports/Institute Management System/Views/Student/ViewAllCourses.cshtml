@@ -1,0 +1,117 @@
+﻿@model IEnumerable<Institute_Management_System.CourseViewModel>
+
+@{
+    ViewBag.Title = "ViewAllCourses";
+}
+
+<br />
+<br />
+<br />
+<br />
+
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>Courses</h2>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<br />
+<br />
+
+<div class="form-group">
+
+    <div class="col-md-7">
+
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <form>
+                    <div class="col-xs-4" style=" padding-left: 250px">
+                        <button style="background-color: #6B8E23; margin-left:-150px; margin-bottom:-60px; color:#FFFFFF;" class="btn btn-info" type="submit">Department</button>
+                        <select name="type" id="type" class="form-control">
+                            <option value="Computer Science">Computer Science </option>
+                            <option value="Computer Engineering">Computer Engineering</option>
+                            <option value="Civil Engineering">Civil Engineering</option>
+                            <option value="Architecture Engineeering">Architecture Engineeering</option>
+                        </select>
+                    </div>
+
+                </form>
+
+
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+<!--================End Home Banner Area =================-->
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CourseId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instructor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Start_date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course_duration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Department)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CourseId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instructor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Start_date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Course_duration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fee)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department)
+            </td>
+            <td>
+                @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+                <a href="~/Student/CourseDetails/@item.CourseId" style="background-color: #6B8E23; color:#FFFFFF; padding-left: 20px;padding-right: 20px" class="btn btn-default">Details</a>
+
+            </td>
+        </tr>
+        }
+
+    </table>
+

@@ -1,0 +1,66 @@
+﻿@model Institute_Management_System.AnnouncementViewModel
+
+@{
+    ViewBag.Title = "viewAnnouncement";
+    List<CourseViewModel> Type1 = CourseViewModel.GetCategoryList();
+    IEnumerable<SelectListItem> CategorySelectList = Type1.Select(x => new SelectListItem() { Text = x.Title, Value = Convert.ToString(x.CourseId) });
+}
+
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>Announcements</h2>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="course_details_area p_120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="c_details_img">
+                    <img class="img-fluid" src="~/img/courses/course-details.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="c_details_list">
+                <ul class="list">
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Course)</b>
+                        @Html.Display(" : ")
+
+                        @Html.DropDownList("Type1", CategorySelectList);
+                    </li>
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Title)</b>
+                        @Html.DisplayText("  :  ")
+
+                        @Html.DisplayFor(model => model.Title)
+                    </li>
+                    <li>
+                        <b> @Html.DisplayNameFor(model => model.Detail)</b>
+                        @Html.Display(" : ")
+
+                        @Html.DisplayFor(model => model.Detail)
+
+                    </li>
+
+
+                </ul>
+
+               
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+

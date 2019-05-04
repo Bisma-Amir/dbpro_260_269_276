@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Institute_Management_System.Models.Assessment>
+
+@{
+    ViewBag.Title = "ViewAssessment";
+}
+<br />
+<br />
+<br />
+<br />
+<section class="banner_area">
+    <div class="banner_inner d-flex align-items-center">
+        <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+            <div class="banner_content text-center">
+                <h2>View Assessment</h2>
+
+            </div>
+        </div>
+    </div>
+</section>
+<br/>
+<br/>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Detail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InstructorId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Marks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CourseId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Department)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Detail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.InstructorId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Marks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CourseId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+        @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
+            <a href="~/Instructor/addquestions/@item.Id" style="background-color: #6B8E23; color:#FFFFFF; padding-left: 20px;padding-right: 20px" class="btn btn-default">Add Question</a>
+            <a href="~/Instructor/Showpaper/@item.Id" style="background-color: #6B8E23; color:#FFFFFF; padding-left: 20px;padding-right: 20px" class="btn btn-default">Show Paper</a>
+        </td>
+    </tr>
+    }
+
+</table>

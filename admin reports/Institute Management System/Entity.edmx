@@ -1,0 +1,1005 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DB41Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="CourseAnnounment">
+          <Key>
+            <PropertyRef Name="AnnouncementId" />
+          </Key>
+          <Property Name="AnnouncementId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Details" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CourseID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Courses">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Fee" Type="int" Nullable="false" />
+          <Property Name="InstructorID" Type="int" Nullable="false" />
+          <Property Name="Starttime" Type="date" Nullable="false" />
+          <Property Name="Duration" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Departments">
+          <Key>
+            <PropertyRef Name="DepartmentID" />
+          </Key>
+          <Property Name="DepartmentID" Type="int" Nullable="false" />
+          <Property Name="InstructorID" Type="int" Nullable="false" />
+          <Property Name="CourseID" Type="int" Nullable="false" />
+          <Property Name="StudentID" Type="int" Nullable="false" />
+          <Property Name="FeeID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EnrolledStudents">
+          <Key>
+            <PropertyRef Name="EnrolledID" />
+          </Key>
+          <Property Name="CourseID" Type="int" Nullable="false" />
+          <Property Name="StudentName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" />
+          <Property Name="CNIC" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="nvarchar" MaxLength="50" />
+          <Property Name="InstructorID" Type="int" Nullable="false" />
+          <Property Name="Fee" Type="int" Nullable="false" />
+          <Property Name="StartDate" Type="date" Nullable="false" />
+          <Property Name="Duration" Type="nvarchar" MaxLength="50" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" />
+          <Property Name="StudentID" Type="int" Nullable="false" />
+          <Property Name="EnrolledID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Fee">
+          <Key>
+            <PropertyRef Name="FeeID" />
+          </Key>
+          <Property Name="FeeID" Type="int" Nullable="false" />
+          <Property Name="StudentID" Type="int" Nullable="false" />
+          <Property Name="CourseID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Instructors">
+          <Key>
+            <PropertyRef Name="InstructorID" />
+          </Key>
+          <Property Name="InstructorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CNIC" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Salary" Type="int" Nullable="false" />
+          <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="QuestionPaper">
+          <Key>
+            <PropertyRef Name="QuestionPaperID" />
+          </Key>
+          <Property Name="QuestionPaperID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Option1" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Option2" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Option3" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Option4" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="QuestionID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Questions">
+          <Key>
+            <PropertyRef Name="QuestionID" />
+          </Key>
+          <Property Name="QuestionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="CourseID" Type="int" Nullable="false" />
+          <Property Name="InstructorID" Type="int" Nullable="false" />
+          <Property Name="Marks" Type="int" Nullable="false" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Results">
+          <Key>
+            <PropertyRef Name="ResultID" />
+          </Key>
+          <Property Name="ResultID" Type="int" Nullable="false" />
+          <Property Name="Grade" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="CourseID" Type="int" Nullable="false" />
+          <Property Name="TestID" Type="int" Nullable="false" />
+          <Property Name="StudentID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Students">
+          <Key>
+            <PropertyRef Name="StudentID" />
+          </Key>
+          <Property Name="StudentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CNIC" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Table_1">
+          <Key>
+            <PropertyRef Name="OnlineCourseID" />
+          </Key>
+          <Property Name="OnlineCourseID" Type="int" Nullable="false" />
+          <Property Name="StudentName" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CINC" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="EmailId" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Department" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="CourseId" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Fee" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Tests">
+          <Key>
+            <PropertyRef Name="TestID" />
+          </Key>
+          <Property Name="TestID" Type="int" Nullable="false" />
+          <Property Name="Time" Type="time" Precision="7" Nullable="false" />
+          <Property Name="CourseID" Type="int" Nullable="false" />
+          <Property Name="StudentID" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Courses_Courses">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+          <End Role="Courses1" Type="Self.Courses" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Courses1">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Courses_Instructors">
+          <End Role="Instructors" Type="Self.Instructors" Multiplicity="1" />
+          <End Role="Courses" Type="Self.Courses" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instructors">
+              <PropertyRef Name="InstructorID" />
+            </Principal>
+            <Dependent Role="Courses">
+              <PropertyRef Name="InstructorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Courses">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+          <End Role="Departments" Type="Self.Departments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Departments">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Fee">
+          <End Role="Fee" Type="Self.Fee" Multiplicity="1" />
+          <End Role="Departments" Type="Self.Departments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Fee">
+              <PropertyRef Name="FeeID" />
+            </Principal>
+            <Dependent Role="Departments">
+              <PropertyRef Name="FeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Instructors">
+          <End Role="Instructors" Type="Self.Instructors" Multiplicity="1" />
+          <End Role="Departments" Type="Self.Departments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instructors">
+              <PropertyRef Name="InstructorID" />
+            </Principal>
+            <Dependent Role="Departments">
+              <PropertyRef Name="InstructorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Students">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Departments" Type="Self.Departments" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Departments">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Fee_Courses">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+          <End Role="Fee" Type="Self.Fee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Fee">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Fee_Students">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Fee" Type="Self.Fee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Fee">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Questions_Courses">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+          <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Questions">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Questions_Instructors">
+          <End Role="Instructors" Type="Self.Instructors" Multiplicity="1" />
+          <End Role="Questions" Type="Self.Questions" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instructors">
+              <PropertyRef Name="InstructorID" />
+            </Principal>
+            <Dependent Role="Questions">
+              <PropertyRef Name="InstructorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Results_Courses">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+          <End Role="Results" Type="Self.Results" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Results_Students">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Results" Type="Self.Results" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Results_Tests">
+          <End Role="Tests" Type="Self.Tests" Multiplicity="1" />
+          <End Role="Results" Type="Self.Results" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tests">
+              <PropertyRef Name="TestID" />
+            </Principal>
+            <Dependent Role="Results">
+              <PropertyRef Name="TestID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tests_Courses">
+          <End Role="Courses" Type="Self.Courses" Multiplicity="1" />
+          <End Role="Tests" Type="Self.Tests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Courses">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Tests">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tests_Students">
+          <End Role="Students" Type="Self.Students" Multiplicity="1" />
+          <End Role="Tests" Type="Self.Tests" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Students">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Tests">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DB41ModelStoreContainer">
+          <EntitySet Name="CourseAnnounment" EntityType="Self.CourseAnnounment" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Courses" EntityType="Self.Courses" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Departments" EntityType="Self.Departments" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EnrolledStudents" EntityType="Self.EnrolledStudents" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fee" EntityType="Self.Fee" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Instructors" EntityType="Self.Instructors" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="QuestionPaper" EntityType="Self.QuestionPaper" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Questions" EntityType="Self.Questions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Results" EntityType="Self.Results" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Students" EntityType="Self.Students" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Table_1" EntityType="Self.Table_1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Tests" EntityType="Self.Tests" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Courses_Courses" Association="Self.FK_Courses_Courses">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Courses1" EntitySet="Courses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Courses_Instructors" Association="Self.FK_Courses_Instructors">
+            <End Role="Instructors" EntitySet="Instructors" />
+            <End Role="Courses" EntitySet="Courses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Courses" Association="Self.FK_Departments_Courses">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Departments" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Fee" Association="Self.FK_Departments_Fee">
+            <End Role="Fee" EntitySet="Fee" />
+            <End Role="Departments" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Instructors" Association="Self.FK_Departments_Instructors">
+            <End Role="Instructors" EntitySet="Instructors" />
+            <End Role="Departments" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Students" Association="Self.FK_Departments_Students">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Departments" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Fee_Courses" Association="Self.FK_Fee_Courses">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Fee" EntitySet="Fee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Fee_Students" Association="Self.FK_Fee_Students">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Fee" EntitySet="Fee" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Questions_Courses" Association="Self.FK_Questions_Courses">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Questions" EntitySet="Questions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Questions_Instructors" Association="Self.FK_Questions_Instructors">
+            <End Role="Instructors" EntitySet="Instructors" />
+            <End Role="Questions" EntitySet="Questions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Results_Courses" Association="Self.FK_Results_Courses">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Results_Students" Association="Self.FK_Results_Students">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Results_Tests" Association="Self.FK_Results_Tests">
+            <End Role="Tests" EntitySet="Tests" />
+            <End Role="Results" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tests_Courses" Association="Self.FK_Tests_Courses">
+            <End Role="Courses" EntitySet="Courses" />
+            <End Role="Tests" EntitySet="Tests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tests_Students" Association="Self.FK_Tests_Students">
+            <End Role="Students" EntitySet="Students" />
+            <End Role="Tests" EntitySet="Tests" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB41Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DB41Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="CourseAnnounments" EntityType="DB41Model.CourseAnnounment" />
+          <EntitySet Name="Courses" EntityType="DB41Model.Cours" />
+          <EntitySet Name="Departments" EntityType="DB41Model.Department" />
+          <EntitySet Name="EnrolledStudents" EntityType="DB41Model.EnrolledStudent" />
+          <EntitySet Name="Fees" EntityType="DB41Model.Fee" />
+          <EntitySet Name="Instructors" EntityType="DB41Model.Instructor" />
+          <EntitySet Name="QuestionPapers" EntityType="DB41Model.QuestionPaper" />
+          <EntitySet Name="Questions" EntityType="DB41Model.Question" />
+          <EntitySet Name="Results" EntityType="DB41Model.Result" />
+          <EntitySet Name="Students" EntityType="DB41Model.Student" />
+          <EntitySet Name="Table_1" EntityType="DB41Model.Table_1" />
+          <EntitySet Name="Tests" EntityType="DB41Model.Test" />
+          <AssociationSet Name="FK_Courses_Courses" Association="DB41Model.FK_Courses_Courses">
+            <End Role="Cours" EntitySet="Courses" />
+            <End Role="Cours1" EntitySet="Courses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Courses_Instructors" Association="DB41Model.FK_Courses_Instructors">
+            <End Role="Instructor" EntitySet="Instructors" />
+            <End Role="Cours" EntitySet="Courses" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Courses" Association="DB41Model.FK_Departments_Courses">
+            <End Role="Cours" EntitySet="Courses" />
+            <End Role="Department" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Fee_Courses" Association="DB41Model.FK_Fee_Courses">
+            <End Role="Cours" EntitySet="Courses" />
+            <End Role="Fee" EntitySet="Fees" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Questions_Courses" Association="DB41Model.FK_Questions_Courses">
+            <End Role="Cours" EntitySet="Courses" />
+            <End Role="Question" EntitySet="Questions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Results_Courses" Association="DB41Model.FK_Results_Courses">
+            <End Role="Cours" EntitySet="Courses" />
+            <End Role="Result" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tests_Courses" Association="DB41Model.FK_Tests_Courses">
+            <End Role="Cours" EntitySet="Courses" />
+            <End Role="Test" EntitySet="Tests" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Fee" Association="DB41Model.FK_Departments_Fee">
+            <End Role="Fee" EntitySet="Fees" />
+            <End Role="Department" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Instructors" Association="DB41Model.FK_Departments_Instructors">
+            <End Role="Instructor" EntitySet="Instructors" />
+            <End Role="Department" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Departments_Students" Association="DB41Model.FK_Departments_Students">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="Department" EntitySet="Departments" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Fee_Students" Association="DB41Model.FK_Fee_Students">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="Fee" EntitySet="Fees" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Questions_Instructors" Association="DB41Model.FK_Questions_Instructors">
+            <End Role="Instructor" EntitySet="Instructors" />
+            <End Role="Question" EntitySet="Questions" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Results_Students" Association="DB41Model.FK_Results_Students">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="Result" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Results_Tests" Association="DB41Model.FK_Results_Tests">
+            <End Role="Test" EntitySet="Tests" />
+            <End Role="Result" EntitySet="Results" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tests_Students" Association="DB41Model.FK_Tests_Students">
+            <End Role="Student" EntitySet="Students" />
+            <End Role="Test" EntitySet="Tests" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="CourseAnnounment">
+          <Key>
+            <PropertyRef Name="AnnouncementId" />
+          </Key>
+          <Property Name="AnnouncementId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Details" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CourseID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Cours">
+          <Key>
+            <PropertyRef Name="CourseID" />
+          </Key>
+          <Property Name="CourseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Fee" Type="Int32" Nullable="false" />
+          <Property Name="InstructorID" Type="Int32" Nullable="false" />
+          <Property Name="Starttime" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Duration" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Courses1" Relationship="DB41Model.FK_Courses_Courses" FromRole="Cours" ToRole="Cours1" />
+          <NavigationProperty Name="Cours1" Relationship="DB41Model.FK_Courses_Courses" FromRole="Cours1" ToRole="Cours" />
+          <NavigationProperty Name="Instructor" Relationship="DB41Model.FK_Courses_Instructors" FromRole="Cours" ToRole="Instructor" />
+          <NavigationProperty Name="Departments" Relationship="DB41Model.FK_Departments_Courses" FromRole="Cours" ToRole="Department" />
+          <NavigationProperty Name="Fees" Relationship="DB41Model.FK_Fee_Courses" FromRole="Cours" ToRole="Fee" />
+          <NavigationProperty Name="Questions" Relationship="DB41Model.FK_Questions_Courses" FromRole="Cours" ToRole="Question" />
+          <NavigationProperty Name="Results" Relationship="DB41Model.FK_Results_Courses" FromRole="Cours" ToRole="Result" />
+          <NavigationProperty Name="Tests" Relationship="DB41Model.FK_Tests_Courses" FromRole="Cours" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="Department">
+          <Key>
+            <PropertyRef Name="DepartmentID" />
+          </Key>
+          <Property Name="DepartmentID" Type="Int32" Nullable="false" />
+          <Property Name="InstructorID" Type="Int32" Nullable="false" />
+          <Property Name="CourseID" Type="Int32" Nullable="false" />
+          <Property Name="StudentID" Type="Int32" Nullable="false" />
+          <Property Name="FeeID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Cours" Relationship="DB41Model.FK_Departments_Courses" FromRole="Department" ToRole="Cours" />
+          <NavigationProperty Name="Fee" Relationship="DB41Model.FK_Departments_Fee" FromRole="Department" ToRole="Fee" />
+          <NavigationProperty Name="Instructor" Relationship="DB41Model.FK_Departments_Instructors" FromRole="Department" ToRole="Instructor" />
+          <NavigationProperty Name="Student" Relationship="DB41Model.FK_Departments_Students" FromRole="Department" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="EnrolledStudent">
+          <Key>
+            <PropertyRef Name="EnrolledID" />
+          </Key>
+          <Property Name="CourseID" Type="Int32" Nullable="false" />
+          <Property Name="StudentName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CNIC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="InstructorID" Type="Int32" Nullable="false" />
+          <Property Name="Fee" Type="Int32" Nullable="false" />
+          <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="Duration" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="StudentID" Type="Int32" Nullable="false" />
+          <Property Name="EnrolledID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="Fee">
+          <Key>
+            <PropertyRef Name="FeeID" />
+          </Key>
+          <Property Name="FeeID" Type="Int32" Nullable="false" />
+          <Property Name="StudentID" Type="Int32" Nullable="false" />
+          <Property Name="CourseID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Cours" Relationship="DB41Model.FK_Fee_Courses" FromRole="Fee" ToRole="Cours" />
+          <NavigationProperty Name="Departments" Relationship="DB41Model.FK_Departments_Fee" FromRole="Fee" ToRole="Department" />
+          <NavigationProperty Name="Student" Relationship="DB41Model.FK_Fee_Students" FromRole="Fee" ToRole="Student" />
+        </EntityType>
+        <EntityType Name="Instructor">
+          <Key>
+            <PropertyRef Name="InstructorID" />
+          </Key>
+          <Property Name="InstructorID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CNIC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Department" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Salary" Type="Int32" Nullable="false" />
+          <Property Name="PhoneNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Courses" Relationship="DB41Model.FK_Courses_Instructors" FromRole="Instructor" ToRole="Cours" />
+          <NavigationProperty Name="Departments" Relationship="DB41Model.FK_Departments_Instructors" FromRole="Instructor" ToRole="Department" />
+          <NavigationProperty Name="Questions" Relationship="DB41Model.FK_Questions_Instructors" FromRole="Instructor" ToRole="Question" />
+        </EntityType>
+        <EntityType Name="QuestionPaper">
+          <Key>
+            <PropertyRef Name="QuestionPaperID" />
+          </Key>
+          <Property Name="QuestionPaperID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Option1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Option2" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Option3" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Option4" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="QuestionID" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Question">
+          <Key>
+            <PropertyRef Name="QuestionID" />
+          </Key>
+          <Property Name="QuestionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CourseID" Type="Int32" Nullable="false" />
+          <Property Name="InstructorID" Type="Int32" Nullable="false" />
+          <Property Name="Marks" Type="Int32" Nullable="false" />
+          <Property Name="Department" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Cours" Relationship="DB41Model.FK_Questions_Courses" FromRole="Question" ToRole="Cours" />
+          <NavigationProperty Name="Instructor" Relationship="DB41Model.FK_Questions_Instructors" FromRole="Question" ToRole="Instructor" />
+        </EntityType>
+        <EntityType Name="Result">
+          <Key>
+            <PropertyRef Name="ResultID" />
+          </Key>
+          <Property Name="ResultID" Type="Int32" Nullable="false" />
+          <Property Name="Grade" Type="String" Nullable="false" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="CourseID" Type="Int32" Nullable="false" />
+          <Property Name="TestID" Type="Int32" Nullable="false" />
+          <Property Name="StudentID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Cours" Relationship="DB41Model.FK_Results_Courses" FromRole="Result" ToRole="Cours" />
+          <NavigationProperty Name="Student" Relationship="DB41Model.FK_Results_Students" FromRole="Result" ToRole="Student" />
+          <NavigationProperty Name="Test" Relationship="DB41Model.FK_Results_Tests" FromRole="Result" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="Student">
+          <Key>
+            <PropertyRef Name="StudentID" />
+          </Key>
+          <Property Name="StudentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CNIC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Department" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Departments" Relationship="DB41Model.FK_Departments_Students" FromRole="Student" ToRole="Department" />
+          <NavigationProperty Name="Fees" Relationship="DB41Model.FK_Fee_Students" FromRole="Student" ToRole="Fee" />
+          <NavigationProperty Name="Results" Relationship="DB41Model.FK_Results_Students" FromRole="Student" ToRole="Result" />
+          <NavigationProperty Name="Tests" Relationship="DB41Model.FK_Tests_Students" FromRole="Student" ToRole="Test" />
+        </EntityType>
+        <EntityType Name="Table_1">
+          <Key>
+            <PropertyRef Name="OnlineCourseID" />
+          </Key>
+          <Property Name="OnlineCourseID" Type="Int32" Nullable="false" />
+          <Property Name="StudentName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CINC" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Address" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EmailId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Department" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CourseId" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Fee" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Test">
+          <Key>
+            <PropertyRef Name="TestID" />
+          </Key>
+          <Property Name="TestID" Type="Int32" Nullable="false" />
+          <Property Name="Time" Type="Time" Nullable="false" Precision="7" />
+          <Property Name="CourseID" Type="Int32" Nullable="false" />
+          <Property Name="StudentID" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Cours" Relationship="DB41Model.FK_Tests_Courses" FromRole="Test" ToRole="Cours" />
+          <NavigationProperty Name="Results" Relationship="DB41Model.FK_Results_Tests" FromRole="Test" ToRole="Result" />
+          <NavigationProperty Name="Student" Relationship="DB41Model.FK_Tests_Students" FromRole="Test" ToRole="Student" />
+        </EntityType>
+        <Association Name="FK_Courses_Courses">
+          <End Type="DB41Model.Cours" Role="Cours" Multiplicity="1" />
+          <End Type="DB41Model.Cours" Role="Cours1" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Cours">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Cours1">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Courses_Instructors">
+          <End Type="DB41Model.Instructor" Role="Instructor" Multiplicity="1" />
+          <End Type="DB41Model.Cours" Role="Cours" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instructor">
+              <PropertyRef Name="InstructorID" />
+            </Principal>
+            <Dependent Role="Cours">
+              <PropertyRef Name="InstructorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Courses">
+          <End Type="DB41Model.Cours" Role="Cours" Multiplicity="1" />
+          <End Type="DB41Model.Department" Role="Department" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cours">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Department">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Fee_Courses">
+          <End Type="DB41Model.Cours" Role="Cours" Multiplicity="1" />
+          <End Type="DB41Model.Fee" Role="Fee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cours">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Fee">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Questions_Courses">
+          <End Type="DB41Model.Cours" Role="Cours" Multiplicity="1" />
+          <End Type="DB41Model.Question" Role="Question" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cours">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Question">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Results_Courses">
+          <End Type="DB41Model.Cours" Role="Cours" Multiplicity="1" />
+          <End Type="DB41Model.Result" Role="Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cours">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Result">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tests_Courses">
+          <End Type="DB41Model.Cours" Role="Cours" Multiplicity="1" />
+          <End Type="DB41Model.Test" Role="Test" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Cours">
+              <PropertyRef Name="CourseID" />
+            </Principal>
+            <Dependent Role="Test">
+              <PropertyRef Name="CourseID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Fee">
+          <End Type="DB41Model.Fee" Role="Fee" Multiplicity="1" />
+          <End Type="DB41Model.Department" Role="Department" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Fee">
+              <PropertyRef Name="FeeID" />
+            </Principal>
+            <Dependent Role="Department">
+              <PropertyRef Name="FeeID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Instructors">
+          <End Type="DB41Model.Instructor" Role="Instructor" Multiplicity="1" />
+          <End Type="DB41Model.Department" Role="Department" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instructor">
+              <PropertyRef Name="InstructorID" />
+            </Principal>
+            <Dependent Role="Department">
+              <PropertyRef Name="InstructorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Departments_Students">
+          <End Type="DB41Model.Student" Role="Student" Multiplicity="1" />
+          <End Type="DB41Model.Department" Role="Department" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Department">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Fee_Students">
+          <End Type="DB41Model.Student" Role="Student" Multiplicity="1" />
+          <End Type="DB41Model.Fee" Role="Fee" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Fee">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Questions_Instructors">
+          <End Type="DB41Model.Instructor" Role="Instructor" Multiplicity="1" />
+          <End Type="DB41Model.Question" Role="Question" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Instructor">
+              <PropertyRef Name="InstructorID" />
+            </Principal>
+            <Dependent Role="Question">
+              <PropertyRef Name="InstructorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Results_Students">
+          <End Type="DB41Model.Student" Role="Student" Multiplicity="1" />
+          <End Type="DB41Model.Result" Role="Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Result">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Results_Tests">
+          <End Type="DB41Model.Test" Role="Test" Multiplicity="1" />
+          <End Type="DB41Model.Result" Role="Result" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Test">
+              <PropertyRef Name="TestID" />
+            </Principal>
+            <Dependent Role="Result">
+              <PropertyRef Name="TestID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tests_Students">
+          <End Type="DB41Model.Student" Role="Student" Multiplicity="1" />
+          <End Type="DB41Model.Test" Role="Test" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Student">
+              <PropertyRef Name="StudentID" />
+            </Principal>
+            <Dependent Role="Test">
+              <PropertyRef Name="StudentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DB41ModelStoreContainer" CdmEntityContainer="DB41Entities">
+          <EntitySetMapping Name="CourseAnnounments">
+            <EntityTypeMapping TypeName="DB41Model.CourseAnnounment">
+              <MappingFragment StoreEntitySet="CourseAnnounment">
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="Details" ColumnName="Details" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="AnnouncementId" ColumnName="AnnouncementId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Courses">
+            <EntityTypeMapping TypeName="DB41Model.Cours">
+              <MappingFragment StoreEntitySet="Courses">
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="Starttime" ColumnName="Starttime" />
+                <ScalarProperty Name="InstructorID" ColumnName="InstructorID" />
+                <ScalarProperty Name="Fee" ColumnName="Fee" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Departments">
+            <EntityTypeMapping TypeName="DB41Model.Department">
+              <MappingFragment StoreEntitySet="Departments">
+                <ScalarProperty Name="FeeID" ColumnName="FeeID" />
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="InstructorID" ColumnName="InstructorID" />
+                <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EnrolledStudents">
+            <EntityTypeMapping TypeName="DB41Model.EnrolledStudent">
+              <MappingFragment StoreEntitySet="EnrolledStudents">
+                <ScalarProperty Name="EnrolledID" ColumnName="EnrolledID" />
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="Fee" ColumnName="Fee" />
+                <ScalarProperty Name="InstructorID" ColumnName="InstructorID" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fees">
+            <EntityTypeMapping TypeName="DB41Model.Fee">
+              <MappingFragment StoreEntitySet="Fee">
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+                <ScalarProperty Name="FeeID" ColumnName="FeeID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Instructors">
+            <EntityTypeMapping TypeName="DB41Model.Instructor">
+              <MappingFragment StoreEntitySet="Instructors">
+                <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+                <ScalarProperty Name="Salary" ColumnName="Salary" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="InstructorID" ColumnName="InstructorID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="QuestionPapers">
+            <EntityTypeMapping TypeName="DB41Model.QuestionPaper">
+              <MappingFragment StoreEntitySet="QuestionPaper">
+                <ScalarProperty Name="QuestionID" ColumnName="QuestionID" />
+                <ScalarProperty Name="Option4" ColumnName="Option4" />
+                <ScalarProperty Name="Option3" ColumnName="Option3" />
+                <ScalarProperty Name="Option2" ColumnName="Option2" />
+                <ScalarProperty Name="Option1" ColumnName="Option1" />
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="QuestionPaperID" ColumnName="QuestionPaperID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Questions">
+            <EntityTypeMapping TypeName="DB41Model.Question">
+              <MappingFragment StoreEntitySet="Questions">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Marks" ColumnName="Marks" />
+                <ScalarProperty Name="InstructorID" ColumnName="InstructorID" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="QuestionID" ColumnName="QuestionID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Results">
+            <EntityTypeMapping TypeName="DB41Model.Result">
+              <MappingFragment StoreEntitySet="Results">
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+                <ScalarProperty Name="TestID" ColumnName="TestID" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="Grade" ColumnName="Grade" />
+                <ScalarProperty Name="ResultID" ColumnName="ResultID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Students">
+            <EntityTypeMapping TypeName="DB41Model.Student">
+              <MappingFragment StoreEntitySet="Students">
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Table_1">
+            <EntityTypeMapping TypeName="DB41Model.Table_1">
+              <MappingFragment StoreEntitySet="Table_1">
+                <ScalarProperty Name="Fee" ColumnName="Fee" />
+                <ScalarProperty Name="CourseId" ColumnName="CourseId" />
+                <ScalarProperty Name="Department" ColumnName="Department" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+                <ScalarProperty Name="EmailId" ColumnName="EmailId" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="CINC" ColumnName="CINC" />
+                <ScalarProperty Name="StudentName" ColumnName="StudentName" />
+                <ScalarProperty Name="OnlineCourseID" ColumnName="OnlineCourseID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Tests">
+            <EntityTypeMapping TypeName="DB41Model.Test">
+              <MappingFragment StoreEntitySet="Tests">
+                <ScalarProperty Name="StudentID" ColumnName="StudentID" />
+                <ScalarProperty Name="CourseID" ColumnName="CourseID" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="TestID" ColumnName="TestID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
